@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt 3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="" width=150>
+
+        <nav class="navbar">
+            <a class="active" href="index.html">home</a>
+            <a href="pizzor.html">pizzas</a>
+            <a href="menu.html">menu</a>
+            <a href="contact.html">contact</a>
+            <a href="order.html">order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <i class="fa-solid fa-cart-shopping" id="cart-shopping"></i>
+        </div>
+
+    </header>
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here" name="" id="search-box">
+        <label for="search-box" class="fas-fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <section class="home" id="home">
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span> OUR SPECIAL PIZZAS </span>
+                        <h3>kebab pizza</h3>
+                        <p>Kebab pizza is a Swedish style of pizza topped with kebab meat and other ingredients, the precise topping often varying between restaurants.</p>
+                        <a href="https://www.tripadvisor.se/Restaurant_Review-g187785-d1576687-Reviews-PePe_Nero-Naples_Province_of_Naples_Campania.html " target="_blank" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="kebab.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span> OUR SPECIAL PIZZAS </span>
+                        <h3>margherita</h3>
+                        <p>A traditional Neapolitan Margherita pizza recipe is tomato sauce with fresh tomatoes, mozzarella cheese and basil which represent the colours of the Italian flag - white cheese, green basil and red tomato.</p>
+                        <a href="https://www.tripadvisor.se/Restaurant_Review-g187785-d1576687-Reviews-PePe_Nero-Naples_Province_of_Naples_Campania.html" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="wew.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span> OUR SPECIAL PIZZAS </span>
+                        <h3>Quattro Stagioni</h3>
+                        <p>Pizza quattro stagioni is most often made by adding artichokes, tomatoes or basil, mushrooms, and ham, prosciutto or olives to four separate sections of the pizza. </p>
+                        <a href="https://www.tripadvisor.se/Restaurant_Review-g187785-d1576687-Reviews-PePe_Nero-Naples_Province_of_Naples_Campania.html" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="cinque.png" alt="" width="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+
+        </div>
+        
+    </section>
+
+
+   
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="java.js"></script>
+</body>
+
+</html>
